@@ -1,0 +1,113 @@
+/* Container styling */
+.container {
+  padding: 20px;
+  background-color: #110010;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Title styling */
+.heading {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Search bar and filter styling */
+.searchBar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.searchBar input {
+  padding: 10px;
+  background-color: #333;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  flex: 1;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.filterButton {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.newEmployeeButton {
+  padding: 10px 15px;
+  background-color: #6200ee;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.newEmployeeButton::before {
+  content: '+';
+  display: inline-block;
+}
+
+/* Employee list styling */
+.employeeList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.employeeCard {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: #2e2e2e;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.employeeCard span {
+  flex: 1;
+  text-align: center;
+}
+
+/* Modal Background */
+.modalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonContainer {
+  margin-right: 10px;
+  padding: 10px 15px;
+  background-color: #6200ee;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 14px;
+  display: inline-block;
+  align-items: center;
+  gap: 5px;
+}
+
+.buttonContainer button:last-child {
+  margin-right: 0; /* Remove the margin from the last button */
+}
+

@@ -1,0 +1,91 @@
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-color: #9C54A6;
+  }
+  
+
+  .container {
+    background-color: white; 
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 400px; 
+    width: 100%; 
+    text-align: center;
+  }
+  
+
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #9C54A6; /* Purple background color */
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px; /* Adjust width as needed */
+    position: absolute; /* Absolute positioning for precise centering */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the component within its viewport */
+  }
+  
+
+  .input {
+    margin-bottom: 20px; 
+  }
+  
+  /* Styles for the individual input elements */
+  .inputag {
+    height: 40px; /* Height of the input fields */
+    font-size: 16px; /* Font size for input text */
+    padding: 5px 10px; /* Padding inside input fields */
+    border-radius: 5px; /* Rounded corners for input fields */
+    border: 1px solid #d9d9d9; /* Border color */
+  }
+  
+  /* Styles for the checkbox element */
+  .check {
+    margin-bottom: 15px; /* Margin below the checkbox */
+  }
+  
+  /* Styles for the 'Forgot password' link */
+  .loginforgot {
+    float: right; /* Align to the right */
+  }
+  
+  /* Styles for the login button */
+  .loginbutton {
+    width: 100%; /* Full width for the button */
+    height: 40px; /* Height of the button */
+    background-color: #1890ff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove default button border */
+    border-radius: 5px; /* Rounded corners for the button */
+    font-size: 16px; /* Font size for button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition for background color change */
+  }
+  
+  .loginbutton:hover {
+    background-color: #40a9ff; /* Background color on hover */
+  }
+  
+  /* Styles for the 'Create Account' link container */
+  .regLink {
+    margin-top: 20px; /* Margin above the link */
+  }
+  
+  .regLink a {
+    color: #1890ff;/* Link text color */
+    text-decoration: none; /* Remove underline from link */
+  }
+  
+  .regLink a:hover {
+    text-decoration: underline;
+  }
+  

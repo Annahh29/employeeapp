@@ -1,0 +1,61 @@
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: #110010;
+    color: white;
+  }
+  
+  .heading {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .noEmployees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .placeholderImage {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .noEmployeesText {
+    font-size: 1.5em;
+    margin: 20px 0;
+  }
+  
+  .instructionText {
+    color: #a9a9a9;
+  }
+  
+  .newEmployeeButton {
+    background-color: #7c4dff;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .newEmployeeButton:hover {
+    background-color: #6a38d9;
+  }
+  
+  .plusIcon {
+    margin-right: 10px;
+    font-size: 1.2em;
+  }
+
+  .addModal{
+    background-color: #3B315E;
+    color: #b93131;
+    border-radius: 20px;
+  }
+  
